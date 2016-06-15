@@ -10,7 +10,7 @@ import io.swagger.annotations.ApiModel;
  **/
 
 @ApiModel(description = "**Note** The Event definition will be externalized in future versions of this document.\n\nA basic payload of an Event. The actual schema is dependent on the information configured for\nthe EventType, as is its enforcement (see POST /event-types). Setting of metadata properties\nare dependent on the configured enrichment as well.\n\nFor explanation on default configurations of validation and enrichment, see documentation of\n`EventType.category`.\n\nFor concrete examples of what will be enforced by Nakadi see the objects BusinessEvent and\nDataChangeEvent below.\n")
-@javax.annotation.Generated(value = "class io.swagger.codegen.languages.JavaClientCodegen", date = "2016-06-15T20:45:01.680+01:00")
+@javax.annotation.Generated(value = "class io.swagger.codegen.languages.JavaClientCodegen", date = "2016-06-15T21:24:42.545+01:00")
 public class Event   {
   
 

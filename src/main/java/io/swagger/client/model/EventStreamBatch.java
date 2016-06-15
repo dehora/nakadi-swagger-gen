@@ -16,7 +16,7 @@ import java.util.List;
  **/
 
 @ApiModel(description = "One chunk of events in a stream. A batch consists of an array of `Event`s plus a `Cursor`\npointing to the offset of the last Event in the stream.\n\nThe size of the array of Event is limited by the parameters used to initialize a Stream.\n\nIf acting as a keep alive message (see `GET /event-type/{name}/events`) the events array will\nbe omitted.\n\nSequential batches might present repeated cursors if no new events have arrived.\n")
-@javax.annotation.Generated(value = "class io.swagger.codegen.languages.JavaClientCodegen", date = "2016-06-15T20:45:01.680+01:00")
+@javax.annotation.Generated(value = "class io.swagger.codegen.languages.JavaClientCodegen", date = "2016-06-15T21:24:42.545+01:00")
 public class EventStreamBatch   {
   
   private Cursor cursor = null;

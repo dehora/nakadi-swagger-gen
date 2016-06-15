@@ -15,7 +15,7 @@ import io.swagger.client.model.EventMetadata;
  **/
 
 @ApiModel(description = "A Data change Event.\n\nRepresents a change on a resource. Also contains indicators for the data \ntype and the type of operation performed.\n")
-@javax.annotation.Generated(value = "class io.swagger.codegen.languages.JavaClientCodegen", date = "2016-06-15T20:45:01.680+01:00")
+@javax.annotation.Generated(value = "class io.swagger.codegen.languages.JavaClientCodegen", date = "2016-06-15T21:24:42.545+01:00")
 public class DataChangeEvent extends Event  {
   
   private String dataType = null;

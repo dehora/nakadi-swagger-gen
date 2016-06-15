@@ -12,7 +12,7 @@ import io.swagger.annotations.ApiModelProperty;
  **/
 
 @ApiModel(description = "Partition information. Can be helpful when trying to start a stream using an unmanaged API.\n\nThis information is not related to the state of the consumer clients.\n")
-@javax.annotation.Generated(value = "class io.swagger.codegen.languages.JavaClientCodegen", date = "2016-06-15T20:45:01.680+01:00")
+@javax.annotation.Generated(value = "class io.swagger.codegen.languages.JavaClientCodegen", date = "2016-06-15T21:24:42.545+01:00")
 public class Partition   {
   
   private String partition = null;

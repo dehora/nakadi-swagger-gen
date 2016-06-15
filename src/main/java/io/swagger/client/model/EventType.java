@@ -5,6 +5,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonValue;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
+import io.swagger.client.model.EventTypeSchema;
 import io.swagger.client.model.EventTypeStatistics;
 import java.util.ArrayList;
 import java.util.List;
@@ -16,7 +17,7 @@ import java.util.List;
  **/
 
 @ApiModel(description = "An event type defines the schema and its runtime properties.")
-@javax.annotation.Generated(value = "class io.swagger.codegen.languages.JavaClientCodegen", date = "2016-06-15T20:45:01.680+01:00")
+@javax.annotation.Generated(value = "class io.swagger.codegen.languages.JavaClientCodegen", date = "2016-06-15T21:24:42.545+01:00")
 public class EventType   {
   
   private String name = null;
@@ -62,7 +63,7 @@ public class EventType   {
 
   private List<EnrichmentStrategiesEnum> enrichmentStrategies = new ArrayList<EnrichmentStrategiesEnum>();
   private String partitionStrategy = "random";
-  private Object schema = null;
+  private EventTypeSchema schema = null;
   private List<String> partitionKeyFields = new ArrayList<String>();
   private EventTypeStatistics defaultStatistics = null;
 
@@ -160,17 +161,17 @@ public class EventType   {
   /**
    * The schema for this EventType. Submitted events will be validated against it.\n
    **/
-  public EventType schema(Object schema) {
+  public EventType schema(EventTypeSchema schema) {
     this.schema = schema;
     return this;
   }
   
   @ApiModelProperty(example = "null", required = true, value = "The schema for this EventType. Submitted events will be validated against it.\n")
   @JsonProperty("schema")
-  public Object getSchema() {
+  public EventTypeSchema getSchema() {
     return schema;
   }
-  public void setSchema(Object schema) {
+  public void setSchema(EventTypeSchema schema) {
     this.schema = schema;
   }
 

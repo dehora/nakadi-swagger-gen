@@ -14,7 +14,7 @@ import java.util.UUID;
  **/
 
 @ApiModel(description = "A status corresponding to one individual Event's publishing attempt.\n")
-@javax.annotation.Generated(value = "class io.swagger.codegen.languages.JavaClientCodegen", date = "2016-06-15T20:45:01.680+01:00")
+@javax.annotation.Generated(value = "class io.swagger.codegen.languages.JavaClientCodegen", date = "2016-06-15T21:24:42.545+01:00")
 public class BatchItemResponse   {
   
   private UUID eid = null;
